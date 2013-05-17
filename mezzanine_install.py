@@ -39,7 +39,7 @@ if __name__ == '__main__':
 #	project_name = input("The project name you prefer:")
 #	port = input("The port you want nginx to listen:")
 #	hostname = input("The hostname you own:")
-    path_flup = input("The place you would put your flup:") 
+    path_flup = input("The place you would put your flup(content it with ""):") #give a place you want to input your flup
     if pre_install(path_flup) == 'preinstall_ready':
 	  config_nginx()
 	  print 'install successfull!'
